@@ -194,6 +194,10 @@ a {
   margin-left: 0!important;
 }
 
+.ms-3 {
+  margin-left: 1rem!important;
+}
+
 .ms-4 {
   margin-left: 1.5rem!important;
 }
@@ -208,6 +212,18 @@ a {
 
 .ms-7 {
   margin-left: 6rem !important;
+}
+
+@media (min-width:576px) {
+  .ms-sm-0 {
+    margin-left: 0!important;
+  }
+}
+
+@media (min-width:768px) {
+  .ms-md-3 {
+    margin-left: 1rem!important;
+  }
 }
 
 @media (min-width:992px) {
