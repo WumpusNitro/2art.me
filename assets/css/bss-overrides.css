@@ -348,15 +348,15 @@ a {
   }
 }
 
-@media (min-width: 1200px) {
-  .me-xl-7 {
-    margin-right: 6rem !important;
+@media (min-width:1200px) {
+  .me-xl-0 {
+    margin-right: 0!important;
   }
 }
 
 @media (min-width: 1200px) {
-  .ms-xl-7 {
-    margin-left: 6rem !important;
+  .ms-xl-10 {
+    margin-left: 10.5rem !important;
   }
 }
 
