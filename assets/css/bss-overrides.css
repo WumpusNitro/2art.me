@@ -348,9 +348,9 @@ a {
   }
 }
 
-@media (min-width:1200px) {
-  .me-xl-0 {
-    margin-right: 0!important;
+@media (min-width: 1200px) {
+  .me-xl-7 {
+    margin-right: 6rem !important;
   }
 }
 
