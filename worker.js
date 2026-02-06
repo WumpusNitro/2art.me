@@ -1,24 +1,21 @@
 export default {
   async fetch(request, env) {
-    // Try to fetch the requested asset
+    // Try serving the requested asset
     let response = await env.ASSETS.fetch(request);
 
-    // If not found, serve 404.html instead
-    if (response.status === 404) {
-      const url = new URL(request.url);
-      const notFoundRequest = new Request(
-        new URL("/404.html", url),
-        request
-      );
-
-      const notFoundResponse = await env.ASSETS.fetch(notFoundRequest);
-
-      return new Response(notFoundResponse.body, {
-        status: 404,
-        headers: notFoundResponse.headers,
-      });
+    if (response.status !== 404) {
+      return response;
     }
 
-    return response;
+    // Fallback to custom 404 page
+    const url = new URL(request.url);
+    const notFoundUrl = new URL("/404.html", url.origin);
+
+    const notFoundResponse = await env.ASSETS.fetch(notFoundUrl);
+
+    return new Response(notFoundResponse.body, {
+      status: 404,
+      headers: notFoundResponse.headers,
+    });
   }
 };
