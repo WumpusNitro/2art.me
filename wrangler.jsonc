@@ -1,9 +1,7 @@
 {
   "name": "2artme",
   "compatibility_date": "2026-01-23",
-  "main": "worker.js",
   "assets": {
-    "directory": ".",
-    "binding": "ASSETS"
+    "directory": "."
   }
 }
