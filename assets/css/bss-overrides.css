@@ -322,6 +322,12 @@ a {
 }
 
 @media (min-width:576px) {
+  .mb-sm-5 {
+    margin-bottom: 3rem!important;
+  }
+}
+
+@media (min-width:576px) {
   .ms-sm-0 {
     margin-left: 0!important;
   }
@@ -342,6 +348,18 @@ a {
 @media (min-width:768px) {
   .mt-md-2 {
     margin-top: .5rem!important;
+  }
+}
+
+@media (min-width:768px) {
+  .me-md-1 {
+    margin-right: .25rem!important;
+  }
+}
+
+@media (min-width:768px) {
+  .ms-md-0 {
+    margin-left: 0!important;
   }
 }
 
