@@ -126,6 +126,10 @@ a {
   margin-top: 4.5rem !important;
 }
 
+.mt-10 {
+  margin-top: 10.5rem !important;
+}
+
 .me-0 {
   margin-right: 0!important;
 }
@@ -257,6 +261,10 @@ a {
 
 .pt-4 {
   padding-top: 1.5rem!important;
+}
+
+.pt-10 {
+  padding-top: 10.5rem !important;
 }
 
 .pe-0 {
