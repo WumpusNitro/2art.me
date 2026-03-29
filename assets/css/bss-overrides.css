@@ -562,6 +562,12 @@ a {
 }
 
 @media (min-width:1400px) {
+  .mb-xxl-0 {
+    margin-bottom: 0!important;
+  }
+}
+
+@media (min-width:1400px) {
   .ms-xxl-0 {
     margin-left: 0!important;
   }
