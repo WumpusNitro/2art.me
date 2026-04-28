@@ -3,3 +3,950 @@ a {
   text-decoration: none;
 }
 
+.InterSerif {
+  font-family: Inter, sans-serif;
+}
+
+.NebulaSansBold {
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+}
+
+.IconWhite {
+  color: rgb(255,255,255);
+}
+
+.CenterAlign {
+  text-align: center;
+}
+
+.WebarcxyzHeading {
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.WelcomeDiv {
+  height: 600px;
+  background: linear-gradient(rgba(255,255,255,0), #171718 85%), url("../../assets/img/background.webp") center / cover;
+}
+
+.WelcomeHeading {
+  font-family: 'Nebula Sans Book';
+  margin-bottom: 0px;
+  margin-right: 1px;
+  font-size: 48px;
+  text-align: left;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+}
+
+.WelcomeParagraph {
+  font-size: 15px;
+  font-family: 'Nebula Sans';
+  text-align: left;
+  margin-right: -282px;
+  margin-left: 0px;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+}
+
+.EmptyDiv {
+  font-size: 15px;
+  font-family: Inter, sans-serif;
+  margin-bottom: -2px;
+  margin-right: 1px;
+  padding-top: 468px;
+}
+
+.Hello {
+  font-family: 'Uni Sans Heavy CAPS';
+  font-style: italic;
+  text-align: left;
+  font-size: 36px;
+}
+
+.ParagraphHiya {
+  font-size: 17px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: -18px;
+  font-family: Inter, sans-serif;
+}
+
+.LearnMoreButton {
+  background: rgb(74,141,203);
+  box-shadow: 0px 0px 20px 6px rgb(74,141,203);
+  font-weight: bold;
+  font-family: 'Nebula Sans Book';
+  border-color: rgb(74,141,203);
+  color: rgb(255,255,255);
+}
+
+.TinyText {
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 8px;
+  opacity: 0.18;
+  font-weight: bold;
+}
+
+.OCDiv {
+  height: 600px;
+  background: url("../../assets/img/Assset-CrystalBall.jpg") bottom right / cover no-repeat;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.OCheading {
+  font-family: 'Uni Sans Heavy CAPS';
+  margin-bottom: 0px;
+  margin-right: 1px;
+  font-size: 40px;
+  text-align: left;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+  font-style: italic;
+  text-shadow: 0px 0px 18px #f1f1f1, 0px 0px 18px #0084FF, 0px 0px 18px #0084FF;
+}
+
+.GlowyOCText {
+  font-size: 18px;
+  font-family: 'Nebula Sans';
+  text-align: left;
+  margin-right: -282px;
+  margin-left: 0px;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  text-shadow: 0px 0px 7px #f1f1f1, 0px 0px 7px #0084ff, 0px 0px 7px #0084ff, 0px 0px 7px #0084ff;
+  font-weight: bold;
+}
+
+.OCButton {
+  background: #4ea9ff;
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  border-style: none;
+  transform: scale(1.20);
+  transform-style: preserve-3d;
+  color: rgb(255,255,255);
+}
+
+.ArrowIcon {
+  font-size: 16px;
+}
+
+.PotatoTransitAuthorityIcon {
+  width: 34px;
+  height: 24px;
+}
+
+.PaginationThing {
+  filter: hue-rotate(0deg);
+}
+
+.PotatoTransitAuthorityIcon1 {
+  width: 33px;
+  height: 24px;
+}
+
+.NyaNetIconRotation {
+  transform: rotate(9deg);
+}
+
+.ParallaxBG {
+  height: 600px;
+  background: linear-gradient(rgba(255,255,255,0), #171718 85%), url("../../assets/img/Assset-CrystalBall.jpg") center right / cover;
+}
+
+.GlowyThingOC {
+  font-family: 'Uni Sans Heavy CAPS';
+  margin-bottom: 0px;
+  margin-right: 1px;
+  font-size: 48px;
+  text-align: left;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+  text-shadow: 4px 0px 20px #ffffff, 4px 0px 20px #0084FF, 4px 0px 20px #0084FF;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.InfoButtonSonas {
+  background: var(--bs-alert-border-color);
+  border-style: none;
+  font-weight: bold;
+  font-family: 'Nebula Sans Book';
+  color: rgb(255,255,255);
+}
+
+.ColumnCloudy {
+  background: url("../../assets/img/CloudyContainer.webp") center / cover;
+  border-radius: 19px;
+}
+
+.Opacity0 {
+  opacity: 0;
+}
+
+.ColumnSonas {
+  background: url(../../assets/img/background.webp) center / cover;
+  border-radius: 19px;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  filter: blur(0px) invert(0%) saturate(117%);
+  opacity: 1;
+}
+
+.invisible {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.FontNebulaSans {
+  font-family: 'Nebula Sans';
+}
+
+.Rounding20px {
+  border-radius: 20px;
+}
+
+.FontNebulaSansBook {
+  font-family: 'Nebula Sans Book';
+}
+
+.FontNebulaSans-Bold {
+  font-family: 'Nebula Sans';
+  font-weight: bold;
+}
+
+.bggray {
+  border-radius: 0px;
+  background: #222222;
+}
+
+.black {
+  background: linear-gradient(var(--bs-body-bg) 0%, #000000);
+}
+
+.LinksInter {
+  margin-top: -15px;
+  font-family: Inter, sans-serif;
+}
+
+.Icon19px {
+  font-size: 19px;
+}
+
+.Logo {
+  font-family: 'Uni Sans Heavy CAPS';
+  font-size: 28px;
+  margin-bottom: -12px;
+}
+
+.LogoHomeRedirect {
+  font-family: 'Uni Sans Heavy CAPS';
+  color: rgb(255,255,255);
+  font-size: 19px;
+}
+
+.MarginBottom37px {
+  margin-bottom: 37px;
+}
+
+.PagesDivs {
+  max-width: 350px;
+  margin-top: 304px;
+  margin-right: 195px;
+}
+
+.Paragraphs {
+  margin-left: 24px;
+  margin-top: -9px;
+  font-family: Inter, sans-serif;
+}
+
+.ParagraphLeft {
+  text-align: left;
+  font-family: 'Nebula Sans Book';
+}
+
+.ParagraphPages {
+  font-size: 15px;
+  font-family: 'Nebula Sans Book';
+  text-align: left;
+  margin-right: -282px;
+  margin-left: 0px;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.FontNebulaSnasLeftAlign {
+  font-family: 'Nebula Sans';
+  text-align: left;
+}
+
+.BlogPostImageRounding {
+  border-style: none;
+  border-radius: 60px;
+}
+
+.HeadingBlogSections {
+  text-align: left;
+  font-family: 'Nebula Sans';
+  font-style: italic;
+}
+
+.BlogParagraphs {
+  text-align: left;
+  font-size: 19px;
+  font-family: 'Nebula Sans';
+}
+
+.RobotoSerif {
+  font-family: Roboto, sans-serif;
+}
+
+.HeadingLeftAlignItalic {
+  text-align: left;
+  font-family: 'Uni Sans Heavy CAPS';
+  font-style: italic;
+  text-shadow: 0px 0px 18px #0084FF, 0px 0px 18px #0084FF;
+}
+
+.NebulaBookLeftalign20px {
+  text-align: left;
+  font-family: 'Nebula Sans Book';
+  font-size: 20px;
+}
+
+.ButtonCloudyTextWhite {
+  background: #0084FF;
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  transform: scale(1.20);
+  border-style: none;
+  color: rgb(255,255,255);
+}
+
+.ContactVarNebula {
+  background: var(--bs-primary);
+  font-family: 'Nebula Sans';
+  border-style: none;
+}
+
+.HeadingLeftBold {
+  font-family: 'Nebula Sans Book';
+  text-align: left;
+  font-weight: bold;
+}
+
+.BlogProfilePictures {
+  border-width: 0px;
+  border-radius: 33px;
+}
+
+.BlogProfileNames {
+  font-size: 21px;
+}
+
+.AboutMeColumnsSections {
+  background: #2a6398;
+  border-radius: 23px;
+  text-align: left;
+}
+
+.AboutMeHeadings {
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  font-size: 35px;
+  text-align: left;
+}
+
+.HiddenTextorSomething {
+  text-align: center;
+  font-family: 'Nebula Sans Book';
+  font-size: 22px;
+}
+
+.AttributionsColumns {
+  background: #292929;
+  border-radius: 30px;
+}
+
+.AttributionHeadings {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+  font-size: 50px;
+  margin-top: 38px;
+  font-weight: bold;
+}
+
+.AttributionListItem {
+  font-size: 22px;
+  font-family: 'Nebula Sans';
+}
+
+.AttributionIcons {
+  border-radius: 82px;
+}
+
+.BlueButtons {
+  border-radius: 11px;
+  background: var(--bs-primary);
+  border-style: none;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: rgb(255,255,255);
+}
+
+.BlogPostTitle {
+  text-align: center;
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+}
+
+.AlertListItem {
+  font-size: 20px;
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+}
+
+.AlertBlackIconsSuicide {
+  font-size: 17px;
+}
+
+.BlogButtonsBlue {
+  background: #5599ff;
+  box-shadow: 0px 0px 8px rgb(42,116,203);
+  border-style: none;
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  color: rgb(255,255,255);
+}
+
+.ButtonsIconsRAH {
+  font-size: 18px;
+}
+
+.UselessAhhCSSthatBootstrapReallyWantsMeToUseGrr {
+  border-style: none;
+}
+
+.BlogInfoIcons {
+  font-size: 28px;
+}
+
+.CloudyColoredGlowingHeadings {
+  font-family: 'Uni Sans Heavy CAPS';
+  margin-bottom: 0px;
+  margin-right: 1px;
+  font-size: 48px;
+  text-align: left;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+  text-shadow: 4px 0px 20px #0084FF, 4px 0px 20px #0084FF, 4px 0px 20px #0084FF;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.InvisableParagraphs {
+  text-align: left;
+  font-family: 'Nebula Sans Book';
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+
+.TrainPics {
+  width: 290px;
+}
+
+.LogoLink2 {
+  font-family: 'Uni Sans Heavy CAPS';
+  color: var(--bs-gray-100);
+  font-size: 19px;
+}
+
+.ColumnHelloThere {
+  text-align: center;
+  font-family: 'Nebula Sans';
+  background: rgba(154,74,203,0);
+  box-shadow: inset 0px 0px rgb(154,74,203);
+}
+
+.ColumnEyecatching {
+  background: linear-gradient(144deg, #76BDFF 5%, #0084FF), #3c2d55;
+  border-radius: 23px;
+  text-align: left;
+  box-shadow: 0px 0px 20px 8px rgb(39,164,255);
+}
+
+.AboutMeHelloThere {
+  font-family: 'Uni Sans Heavy CAPS';
+  font-weight: bold;
+  font-size: 56px;
+  text-align: center;
+}
+
+.AboutMeParagraph {
+  text-align: center;
+  font-family: 'Nebula Sans Book';
+}
+
+.AboutMeTrainImages {
+  border-radius: 18px;
+}
+
+.AttributionsInvisableHeadings {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+}
+
+.AttributionsLeftInter {
+  margin-left: 24px;
+  margin-top: -9px;
+  font-family: Inter, sans-serif;
+  text-align: left;
+}
+
+.AttributionsProfilePicsSpecial {
+  border-radius: 42px;
+}
+
+.AttributionsNebulaSnasLeftBold {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+  padding-top: 16px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.RandomahhContainers {
+  padding-bottom: 0px;
+  margin-bottom: -89px;
+}
+
+.PageNames {
+  margin-top: 43px;
+}
+
+.HomeWebsiteManage {
+  border-radius: 5px;
+  background: rgb(74,141,203);
+  border-style: none;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: rgb(255,255,255);
+}
+
+.ButtonsBoldNebulaBookVarPrimary {
+  border-radius: 11px;
+  background: var(--bs-primary);
+  border-style: none;
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  color: rgb(255,255,255);
+}
+
+.OCsHeadingOCTitle {
+  font-family: 'Uni Sans Heavy CAPS';
+  margin-bottom: 0px;
+  margin-right: 1px;
+  font-size: 58px;
+  text-align: center;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+  text-shadow: 4px 0px 20px #0084FF, 4px 0px 20px #0084FF, 4px 0px 20px #0084FF;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.ispinshitwhatelsedoyouwantmetodo {
+  width: 100px;
+  height: 100px;
+}
+
+.BlogColumnsForIdk {
+  background: rgba(60,45,85,0);
+  border-radius: 33px;
+}
+
+.BlogCenterAlignNebulaSansItalic {
+  text-align: center;
+  font-family: 'Nebula Sans';
+  font-style: italic;
+  font-size: 0px;
+}
+
+.BlogInvisableParagraph {
+  text-align: center;
+  font-size: 0px;
+  font-family: 'Nebula Sans';
+}
+
+.BlogColumnExplainantion {
+  background: var(--bs-primary);
+  border-radius: 30px;
+  text-align: center;
+}
+
+.BlogAlert {
+  border-radius: 20px;
+  border-width: 4px;
+}
+
+.BlogAlertHeading {
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  text-align: left;
+}
+
+.BlogAlertList {
+  text-align: left;
+}
+
+.BlogAlertSuicide {
+  border-width: 4px;
+  border-radius: 20px;
+}
+
+.BlogAlertSuicideHeading {
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+}
+
+.BlogAlertSuicidearagraph {
+  text-align: left;
+  font-size: 17px;
+  font-family: 'Nebula Sans';
+}
+
+.BlogAlertSuicideButton {
+  background: rgb(95,34,40);
+  border-style: none;
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  box-shadow: 0px 0px 8px rgb(255,131,131);
+}
+
+.BlogButtonX {
+  background: #5599ff;
+  box-shadow: 0px 0px 8px rgb(42,116,203);
+  border-style: none;
+  font-weight: bold;
+  font-family: 'Nebula Sans Book';
+  color: rgb(255,255,255);
+}
+
+.BlogIcon1 {
+  font-size: 23px;
+}
+
+.BlogIconArrow {
+  font-size: 18px;
+  transform: rotate(-42deg);
+}
+
+.FanartIndexWelcoming {
+  height: 600px;
+  background: linear-gradient(rgba(255,255,255,0), #171718 88%), url(../../assets/img/background.webp) center right / cover;
+  filter: hue-rotate(0deg);
+}
+
+.AboutMeHeading {
+  font-family: 'Nebula Sans';
+  margin-bottom: 0px;
+  margin-right: 1px;
+  font-size: 48px;
+  text-align: left;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+  text-shadow: 4px 0px 20px;
+  font-weight: bold;
+}
+
+.AboutMeYellowNonBinaryText {
+  color: var(--bs-warning);
+  font-family: 'Nebula Sans';
+}
+
+.AboutMeWhiteNonBinaryText {
+  color: var(--bs-light);
+}
+
+.AboutMePurpleNonBinaryText {
+  color: var(--bs-purple);
+  font-family: 'Nebula Sans';
+}
+
+.RowTTC {
+  transform: perspective(0px);
+}
+
+.Swiper {
+  border-radius: 49px;
+}
+
+.AboutMeImageArt {
+  color: var(--bs-primary);
+}
+
+.AttributionsHeading {
+  margin-top: 73px;
+  font-family: Caveat, serif;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 0px;
+  font-weight: bold;
+}
+
+.AboutMeWelcomingDiv {
+  height: 600px;
+  background: linear-gradient(rgba(255,255,255,0), #171718 85%), url(../../assets/img/background.webp) center / cover;
+  filter: invert(0%) saturate(146%) sepia(0%);
+}
+
+.AttributionsImageBootstrapStudio {
+  width: 120px;
+  height: 120px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 23px;
+  margin-top: 20px;
+}
+
+.AttributionsHeadingBootstrapStudio {
+  font-family: 'Nebula Sans Book';
+  margin-left: 24px;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.AttributionsParagraphBootstrapStudio {
+  margin-left: 24px;
+  margin-top: -9px;
+  font-family: 'Nebula Sans';
+}
+
+.AttributionsButtonBootstrapStudio {
+  text-align: center;
+  margin-top: -12px;
+  padding-bottom: 9px;
+}
+
+.AttributionsButtonBootstrapStudio {
+  text-align: center;
+  background: linear-gradient(152deg, #da4e37 0%, rgb(225,63,136) 25%, #ea2ee4 50%, rgb(52,150,232) 75%);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  padding-bottom: 6px;
+  transform: scale(1.47);
+  font-weight: bold;
+  color: rgb(255,255,255);
+}
+
+.AttributionsBootstrapStudioArrowIcon {
+  font-size: 15px;
+}
+
+.AttributionsNebulaSans {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+  padding-top: 16px;
+  font-size: 26px;
+}
+
+.AttributionsUniSans {
+  font-family: 'Uni Sans Heavy CAPS';
+  margin-left: 24px;
+  padding-top: 16px;
+  text-align: left;
+  font-size: 26px;
+}
+
+.AttributionsGoogleFonts {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+  padding-top: 16px;
+  text-align: left;
+  font-size: 22px;
+}
+
+.AttributionsCaveat {
+  font-family: Caveat, serif;
+}
+
+.AttributionsSpecialThanks {
+  background: #292929;
+  border-radius: 34px;
+  margin-top: 32px;
+}
+
+.AttributionsStarIcon {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+  font-size: 50px;
+  margin-top: 38px;
+}
+
+.AttributionsNebulaSans24pxBold {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+  font-weight: bold;
+}
+
+.AttributionsHeading-rse4 {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+  padding-top: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0px 0px 20px #40bbea, 0px 0px 20px #40bbea, 0px 0px 20px #40bbea;
+}
+
+.AttributionHeading-EvaPink {
+  font-family: 'Nebula Sans';
+  margin-left: 24px;
+  padding-top: 16px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 0px 0px 20px #c14dc8, 0px 0px 20px #c14dc8, 0px 0px 20px #c14dc8;
+}
+
+.AttributionsButtonEvaPink {
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  background: linear-gradient(49deg, #462d6d 0%, #8b5b9b 50%, #784eb2 99%);
+  box-shadow: 0px -1px 20px 7px #784eb2, inset 0px -1px 16px 1px #784eb2;
+  border-style: none;
+  font-size: 18px;
+  color: rgb(255,255,255);
+}
+
+.AttributionsInfoIconSize {
+  font-size: 24px;
+}
+
+.AttributionsFooter {
+  background: linear-gradient(#171718 0%, #000000);
+}
+
+.CloudyWelcomingTop {
+  height: 600px;
+  background: linear-gradient(rgba(255,255,255,0), #171718 85%), url(../../assets/img/CloudyBanner.webp) center right / cover;
+}
+
+.CloudyCloudIcon {
+  font-size: 59px;
+  width: 50px;
+}
+
+.CloudyPaintbrushIcon {
+  font-size: 48px;
+  width: 50px;
+  height: 50px;
+}
+
+.CloudyRulesIcon {
+  font-size: 59px;
+  width: 50px;
+  height: 50px;
+}
+
+.CloudyLoveIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.ContactWelcomingTop {
+  height: 600px;
+  background: linear-gradient(rgba(255,255,255,0), #171718 72%), url("../../assets/img/Asset-Email.jpg") center / cover;
+}
+
+.ContactWelcomingTop1 {
+  font-family: 'Nebula Sans Book';
+  margin-bottom: 0px;
+  margin-right: 1px;
+  font-size: 48px;
+  text-align: left;
+  border-color: rgb(33, 37, 41);
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.ContactEmptyDiv {
+  font-size: 15px;
+  margin-bottom: -2px;
+  margin-right: 1px;
+  padding-top: 468px;
+}
+
+.ContactContactForm {
+  margin-top: 66px;
+}
+
+.ContactCardBody {
+  background: var(--bs-card-bg);
+  border-style: none;
+  border-radius: 20px;
+}
+
+.ContactParagraph {
+  font-family: Inter, sans-serif;
+  text-align: center;
+}
+
+.ContactParagraph11px {
+  font-family: 'Nebula Sans';
+  font-size: 11px;
+  transform: skew(0deg);
+  opacity: 0.54;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.ContactSelection {
+  background: var(--bs-primary);
+  border-style: none;
+  font-family: 'Nebula Sans Book';
+}
+
+.ContactMessageDiv {
+  background: #3c2d55;
+  border-style: none;
+}
+
+.ContactConfirmButton {
+  background: var(--bs-primary);
+  font-family: 'Nebula Sans';
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255,255,255);
+}
+
+.ExpiredRedirectContext {
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+}
+
+.HeadingEmziStore {
+  font-family: 'Nebula Sans Book';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.BodyEaseIn {
+  transition: ease-in;
+  background: var(--bs-body-bg);
+}
+
