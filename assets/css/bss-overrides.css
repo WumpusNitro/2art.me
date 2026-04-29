@@ -28,7 +28,11 @@ a {
   --bs-dark-border-subtle: #141619;
   --bs-body-bg: rgb(23,23,24);
   --bs-body-bg-rgb: 23,23,24;
+  --bs-link-hover-color: #2e6dcc;
+  --bs-link-hover-color-rgb: 46,109,204;
   --bs-link-decoration: none;
+  --bs-border-style: none;
+  --bs-focus-ring-opacity: 0;
 }
 
 [data-bs-theme=dark] .btn-primary, .btn-primary[data-bs-theme=dark] {
@@ -234,10 +238,6 @@ a {
   margin-left: 6rem !important;
 }
 
-.ms-8 {
-  margin-left: 7.5rem !important;
-}
-
 .ms-10 {
   margin-left: 10.5rem !important;
 }
@@ -434,12 +434,6 @@ a {
 @media (min-width: 992px) {
   .me-lg-8 {
     margin-right: 7.5rem !important;
-  }
-}
-
-@media (min-width:992px) {
-  .ms-lg-0 {
-    margin-left: 0!important;
   }
 }
 

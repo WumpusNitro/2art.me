@@ -28,7 +28,7 @@ a {
 
 .WelcomeDiv {
   height: 600px;
-  background: linear-gradient(rgba(255,255,255,0), #171718 85%), url("../../assets/img/background.webp") center / cover;
+  background: linear-gradient(rgba(255,255,255,0), #171718 85%), url("background.webp") center / cover;
 }
 
 .WelcomeHeading {
@@ -80,7 +80,7 @@ a {
   font-weight: bold;
   font-family: 'Nebula Sans Book';
   border-color: rgb(74,141,203);
-  color: rgb(255,255,255);
+  /*color: rgb(255,255,255);*/
 }
 
 .TinyText {
@@ -194,7 +194,7 @@ a {
 }
 
 .ColumnSonas {
-  background: url(../../assets/img/background.webp) center / cover;
+  background: url(background.webp) center / cover;
   border-radius: 19px;
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -542,7 +542,7 @@ a {
   border-style: none;
   font-family: Inter, sans-serif;
   font-weight: bold;
-  color: rgb(255,255,255);
+  /*color: rgb(255,255,255);*/
 }
 
 .ButtonsBoldNebulaBookVarPrimary {
@@ -657,7 +657,7 @@ a {
 
 .FanartIndexWelcoming {
   height: 600px;
-  background: linear-gradient(rgba(255,255,255,0), #171718 88%), url(../../assets/img/background.webp) center right / cover;
+  background: linear-gradient(rgba(255,255,255,0), #171718 88%), url(background.webp) center right / cover;
   filter: hue-rotate(0deg);
 }
 
@@ -710,7 +710,7 @@ a {
 
 .AboutMeWelcomingDiv {
   height: 600px;
-  background: linear-gradient(rgba(255,255,255,0), #171718 85%), url(../../assets/img/background.webp) center / cover;
+  background: linear-gradient(rgba(255,255,255,0), #171718 85%), url(background.webp) center / cover;
   filter: invert(0%) saturate(146%) sepia(0%);
 }
 
@@ -948,5 +948,12 @@ a {
 .BodyEaseIn {
   transition: ease-in;
   background: var(--bs-body-bg);
+}
+
+img {
+}
+
+.Rounding20px {
+  border-radius: 20px;
 }
 
